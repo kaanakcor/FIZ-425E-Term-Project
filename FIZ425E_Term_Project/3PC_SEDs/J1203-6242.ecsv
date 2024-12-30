@@ -1,0 +1,13 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: e_ref, unit: GeV, datatype: float64, format: '%.2f'}
+# - {name: e2dnde, unit: erg / (cm2 s), datatype: float64, format: '%8.4g'}
+# - {name: e2dnde_err, unit: erg / (cm2 s), datatype: float64, format: '%8.4g'}
+# meta: !!omap
+# - {SED_TYPE: e2dnde}
+# schema: astropy-2.0
+e_ref e2dnde e2dnde_err
+0.100 5.391e-12 1.817e-12
+1.225 1.065e-11 6.700e-13
+15.000 8.603e-13 1.997e-13
